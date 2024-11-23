@@ -3,37 +3,40 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     color: #333;
 }
+
 header {
-    background: #333;
+    background: #343a40;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-header nav ul li {
-    display: inline;
+
+nav .nav-link {
     margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+
+nav .nav-link:hover {
+    color: #17a2b8;
 }
-section {
-    margin: 20px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+h2 {
+    margin-bottom: 20px;
 }
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #333;
+    background: #343a40;
     color: #fff;
+    font-size: 0.9rem;
 }
