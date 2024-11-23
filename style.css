@@ -5,38 +5,26 @@ body {
     padding: 0;
     background-color: #f8f9fa;
     color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-header {
-    background: #343a40;
+.dark-mode {
+    background-color: #333;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
 }
 
-nav .nav-link {
+header img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer a {
     margin: 0 10px;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
-
-nav .nav-link:hover {
-    color: #17a2b8;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #343a40;
-    color: #fff;
-    font-size: 0.9rem;
 }
