@@ -1,1 +1,1 @@
-# supriya-bidanta.github.io
+# supriya-bidanta
