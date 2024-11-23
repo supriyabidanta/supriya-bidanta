@@ -1,47 +1,40 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
     background-color: #f8f9fa;
     color: #333;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
-    color: #004080;
 }
 
-.nav-link {
-    font-weight: bold;
-    color: #fff;
+.bg-primary {
+    background-color: #004080 !important;
 }
 
-.nav-link:hover {
-    color: #00bcd4;
-}
-
-.bg-teal {
-    background-color: #008080;
-}
-
-.text-navy {
-    color: #004080;
-}
-
-.bg-navy {
-    background-color: #004080;
-}
-
-.btn-teal {
-    background-color: #008080;
-    color: #fff;
-    border: none;
-}
-
-.btn-teal:hover {
-    background-color: #006666;
-    color: #fff;
+.text-primary {
+    color: #008080 !important;
 }
 
 .card img {
     height: 200px;
     object-fit: cover;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+.progress-bar {
+    animation: grow 2s ease-in-out;
+}
+
+@keyframes grow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
