@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supriya Bidanta Portfolio</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="bg-dark text-white text-center py-4">
+        <img src="images/profile.jpg" alt="Supriya Bidanta" class="rounded-circle mb-3" style="width: 150px;">
         <h1>Supriya Bidanta</h1>
         <p>Ph.D. Student in Bioinformatics & Machine Learning</p>
         <nav class="nav justify-content-center">
@@ -22,13 +28,15 @@
         </nav>
     </header>
 
-    <main class="container my-5">
-        <section id="summary">
+    <div class="container my-5">
+        <button id="theme-toggle" class="btn btn-secondary float-end">Toggle Theme</button>
+
+        <section id="summary" data-aos="fade-up" class="my-5">
             <h2 class="text-primary">Professional Summary</h2>
             <p>Ph.D. student specializing in bioinformatics and machine learning with proven success in developing data solutions using mathematical modeling. Eager to contribute advanced research and technical skills to a bioinformatics role.</p>
         </section>
 
-        <section id="education" class="my-5">
+        <section id="education" data-aos="fade-left" class="my-5">
             <h2 class="text-primary">Education</h2>
             <ul class="list-group">
                 <li class="list-group-item">
@@ -43,7 +51,7 @@
             </ul>
         </section>
 
-        <section id="skills" class="my-5">
+        <section id="skills" data-aos="fade-right" class="my-5">
             <h2 class="text-primary">Skills</h2>
             <ul>
                 <li><strong>Programming:</strong> Python, R, C++, HTML, CSS</li>
@@ -53,16 +61,40 @@
             </ul>
         </section>
 
-        <section id="projects" class="my-5">
-            <h2 class="text-primary">Projects</h2>
-            <ul>
-                <li><strong>Breast Cancer Prediction:</strong> Enhanced accuracy using CNN and DCGAN.</li>
-                <li><strong>Drug Synergy Prediction:</strong> Developed framework using GNNs for cancer drugs.</li>
-                <li><strong>Zebrafish Gene Expression Analysis:</strong> Studied vaping effects on embryos.</li>
-            </ul>
+        <section id="projects" data-aos="fade-up" class="my-5">
+            <h2 class="text-primary text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Breast Cancer Prediction">
+                        <div class="card-body">
+                            <h5 class="card-title">Breast Cancer Prediction</h5>
+                            <p class="card-text">Enhanced accuracy using CNN and DCGAN.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project2.jpg" class="card-img-top" alt="Drug Synergy Prediction">
+                        <div class="card-body">
+                            <h5 class="card-title">Drug Synergy Prediction</h5>
+                            <p class="card-text">Developed framework using GNNs for cancer drugs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/project3.jpg" class="card-img-top" alt="Zebrafish Gene Expression">
+                        <div class="card-body">
+                            <h5 class="card-title">Zebrafish Gene Expression</h5>
+                            <p class="card-text">Studied vaping effects on embryos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="publications" class="my-5">
+        <section id="publications" data-aos="fade-left" class="my-5">
             <h2 class="text-primary">Publications</h2>
             <ul>
                 <li>Bidanta S, et al. Functional Tissue Units in the Human Reference Atlas. <em>Nature Communications</em>. 2023.</li>
@@ -70,7 +102,7 @@
             </ul>
         </section>
 
-        <section id="experience" class="my-5">
+        <section id="experience" data-aos="fade-right" class="my-5">
             <h2 class="text-primary">Work Experience</h2>
             <ul>
                 <li><strong>Research Assistant</strong>, Indiana University (2024–present)</li>
@@ -78,17 +110,35 @@
                 <li><strong>Data Engineer</strong>, Tata Consultancy Services (2015–2021)</li>
             </ul>
         </section>
-    </main>
+    </div>
 
     <footer class="bg-dark text-white text-center py-4">
         <p>
-            <i class="fas fa-envelope"></i> Contact: 
-            <a class="text-white" href="mailto:supriyabidanta21@gmail.com">supriyabidanta21@gmail.com</a>
-        </p>
-        <p>
-            <i class="fab fa-linkedin"></i> LinkedIn: 
-            <a class="text-white" href="https://www.linkedin.com/in/supriya-bidanta" target="_blank">linkedin.com/in/supriya-bidanta</a>
+            <a href="https://www.linkedin.com/in/supriya-bidanta" target="_blank" class="text-white">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="mailto:supriyabidanta21@gmail.com" target="_blank" class="text-white mx-3">
+                <i class="fas fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://github.com/your-username" target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
         </p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Dark Mode Toggle -->
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
