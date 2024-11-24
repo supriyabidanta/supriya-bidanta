@@ -1,40 +1,26 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
 }
 
-.bg-primary {
-    background-color: #004080 !important;
+header {
+    background-color: #004080;
+    color: white;
 }
 
-.text-primary {
-    color: #008080 !important;
+h2 {
+    color: #008080;
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer a {
-    margin: 0 10px;
+    color: white;
+    text-decoration: none;
 }
 
-.progress-bar {
-    animation: grow 2s ease-in-out;
-}
-
-@keyframes grow {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
+footer a:hover {
+    color: #00bcd4;
 }
