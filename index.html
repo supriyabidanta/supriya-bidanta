@@ -6,150 +6,28 @@
     <title>Supriya Bidanta Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!-- AOS Animation Library -->
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header class="bg-primary text-white text-center py-4">
         <img src="images/profile.jpg" alt="Supriya Bidanta" class="rounded-circle mb-3" style="width: 150px;">
-        <h1>Supriya Bidanta</h1>
-        <p>Ph.D. Candidate | Bioinformatics & Machine Learning</p>
-        <p>Advancing Bioinformatics with Data Science & Computational Excellence</p>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my journey in Bioinformatics, Machine Learning, and beyond.</p>
         <nav class="nav justify-content-center">
-            <a class="nav-link text-white" href="#about">About</a>
-            <a class="nav-link text-white" href="#summary">Summary</a>
-            <a class="nav-link text-white" href="#skills">Skills</a>
-            <a class="nav-link text-white" href="#projects">Projects</a>
-            <a class="nav-link text-white" href="#publications">Publications</a>
-            <a class="nav-link text-white" href="#experience">Experience</a>
+            <a class="nav-link text-white" href="about.html">About</a>
+            <a class="nav-link text-white" href="summary.html">Summary</a>
+            <a class="nav-link text-white" href="skills.html">Skills</a>
+            <a class="nav-link text-white" href="projects.html">Projects</a>
+            <a class="nav-link text-white" href="publications.html">Publications</a>
+            <a class="nav-link text-white" href="experience.html">Experience</a>
         </nav>
     </header>
-
     <div class="container my-5">
-        <!-- About Section -->
-        <section id="about" data-aos="fade-up" class="my-5">
-            <h2 class="text-primary">About Me</h2>
-            <p><strong>Ph.D. Student</strong> at CNS, Indiana University Bloomington. I’m passionate about exploring the intersection of biology and mathematics to solve complex problems.</p>
-            <p>Here’s what makes me tick:</p>
-            <ul>
-                <li>📘 <strong>Biology and Maths Freak:</strong> I love combining these two worlds to uncover new insights.</li>
-                <li>🏸 <strong>Sports Enthusiast:</strong> I enjoy playing badminton and squash to stay active and energized.</li>
-                <li>🌄 <strong>Nature Lover:</strong> A good hike is my ultimate stress buster.</li>
-                <li>🎵 <strong>Music & Dance:</strong> Music from around the world inspires me, and dancing keeps me grounded.</li>
-            </ul>
-        </section>
-
-        <!-- Summary Section -->
-        <section id="summary" data-aos="fade-up" class="my-5">
-            <h2 class="text-primary">Professional Summary</h2>
-            <p>Ph.D. Student specializing in bioinformatics and machine learning with proven success in developing data solutions using mathematical modeling. Passionate about advancing research and computational solutions in biotechnology.</p>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" data-aos="fade-right" class="my-5">
-            <h2 class="text-primary">Skills</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>Programming & Tools</h4>
-                    <ul>
-                        <li>Languages: Python, R, C++, HTML, CSS</li>
-                        <li>Bioinformatics Tools: HMMR, IGV, Bowtie2, SOAPdenovo2</li>
-                        <li>Data Visualization: Adobe Illustrator, Matplotlib, Seaborn</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4>Machine Learning & AI</h4>
-                    <ul>
-                        <li>Deep Learning: CNNs (ResNet), GNNs, Reinforcement Learning</li>
-                        <li>Generative Models: GANs, Variational Autoencoders (VAEs)</li>
-                        <li>Advanced Techniques: Hidden Markov Models (HMM), Support Vector Machines (SVM)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <h4>Cloud Platforms & Data Engineering</h4>
-                    <ul>
-                        <li>AWS, Microsoft Azure, Apache Airflow</li>
-                        <li>Databases: SQL, MySQL, Amazon Redshift</li>
-                        <li>Pipeline Development: Shell/Bash Scripting</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4>Computational & Systems Biology</h4>
-                    <ul>
-                        <li>Single-Cell RNA Sequencing (scRNA-seq) Analysis</li>
-                        <li>Multi-Omics Integration & Pathway Analysis</li>
-                        <li>Network Modeling: Gene Regulatory Networks, Drug Synergy Networks</li>
-                        <li>Mathematical Modeling: Cellular Simulations, Differential Equations</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" data-aos="fade-up" class="my-5">
-            <h2 class="text-primary text-center mb-4">Projects</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project1.jpg" class="card-img-top" alt="Breast Cancer Prediction">
-                        <div class="card-body">
-                            <h5 class="card-title">Breast Cancer Prediction</h5>
-                            <p class="card-text">Enhanced accuracy using CNN and DCGAN.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project2.jpg" class="card-img-top" alt="Drug Synergy Prediction">
-                        <div class="card-body">
-                            <h5 class="card-title">Drug Synergy Prediction</h5>
-                            <p class="card-text">Developed framework using GNNs for cancer drugs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project3.jpg" class="card-img-top" alt="Zebrafish Gene Expression">
-                        <div class="card-body">
-                            <h5 class="card-title">Zebrafish Gene Expression</h5>
-                            <p class="card-text">Studied vaping effects on embryos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer Section -->
-        <footer class="bg-primary text-white text-center py-4">
-            <p>
-                <a href="https://www.linkedin.com/in/supriya-bidanta" target="_blank" class="text-white">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="mailto:supriyabidanta21@gmail.com" target="_blank" class="text-white mx-3">
-                    <i class="fas fa-envelope fa-2x"></i>
-                </a>
-                <a href="https://github.com/supriyabidanta" target="_blank" class="text-white">
-                    <i class="fab fa-github fa-2x"></i>
-                </a>
-            </p>
-        </footer>
+        <h2 class="text-primary text-center">Welcome!</h2>
+        <p class="text-center">Click on the navigation links above to explore different aspects of my work and interests.</p>
     </div>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- AOS JS -->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <footer class="bg-primary text-white text-center py-4">
+        <p>&copy; 2024 Supriya Bidanta</p>
+    </footer>
 </body>
 </html>
