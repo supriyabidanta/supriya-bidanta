@@ -1,26 +1,38 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 header {
-    background-color: #004080;
-    color: white;
+    background: #004080;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+    color: #90ee90;
+    text-decoration: underline;
 }
 
 h2 {
+    margin-bottom: 20px;
     color: #008080;
 }
 
-.card {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #00bcd4;
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #004080;
+    color: #fff;
 }
