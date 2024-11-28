@@ -1,38 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
-header {
-    background: #004080;
+.hero-section {
+    background-size: cover;
+    background-position: center;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 100px 0;
 }
 
-.nav a {
-    margin: 0 10px;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
-
-.nav a:hover {
-    color: #90ee90;
-    text-decoration: underline;
+.section {
+    padding: 100px 0;
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #008080;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #004080;
+.section.bg-primary {
+    background-color: #004080;
     color: #fff;
+}
+
+.section.bg-light {
+    background-color: #f8f9fa;
 }
