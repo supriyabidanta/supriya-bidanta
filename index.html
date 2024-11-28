@@ -4,30 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supriya Bidanta Portfolio</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Explore my journey in Bioinformatics, Machine Learning, and more.</p>
-        <nav class="nav justify-content-center">
-            <a class="nav-link text-white" href="about.html">About</a>
-            <a class="nav-link text-white" href="career-goal.html">Career Goal</a>
-            <a class="nav-link text-white" href="education.html">Education</a>
-            <a class="nav-link text-white" href="skills.html">Skills</a>
-            <a class="nav-link text-white" href="publications.html">Publications</a>
-            <a class="nav-link text-white" href="projects.html">Projects</a>
-            <a class="nav-link text-white" href="experience.html">Experience</a>
-            <a class="nav-link text-white" href="contact.html">Contact</a>
-        </nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#about">Supriya Bidanta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#career-goal">Career Goal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center" style="background-image: url('images/banner.jpg');">
+        <div class="container">
+            <h1>Supriya Bidanta</h1>
+            <p>Ph.D. Candidate | Bioinformatics & Machine Learning</p>
+        </div>
     </header>
-    <div class="container my-5">
-        <h2 class="text-primary text-center">Welcome!</h2>
-        <p class="text-center">Click on the navigation links above to explore each section.</p>
-    </div>
-    <footer class="bg-primary text-white text-center py-4">
-        <p>&copy; 2024 Supriya Bidanta</p>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-light" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Supriya Bidanta" class="rounded-circle mb-3" style="width: 150px;">
+            <p>I’m a Ph.D. candidate at CNS, Indiana University Bloomington. I specialize in combining biology and mathematics to solve complex problems in bioinformatics and machine learning.</p>
+        </div>
+    </section>
+
+    <!-- Career Goal Section -->
+    <section id="career-goal" class="section bg-dark text-white" data-aos="fade-right">
+        <div class="container text-center">
+            <h2>Career Goal</h2>
+            <p>To leverage cutting-edge technologies in bioinformatics and machine learning to unravel complex biological phenomena, contribute to cancer research, and design innovative solutions for healthcare challenges.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light" data-aos="fade-left">
+        <div class="container text-center">
+            <h2>Education</h2>
+            <ul class="list-unstyled">
+                <li><strong>Ph.D. in Bioinformatics</strong>, Indiana University Bloomington (2022–2026)</li>
+                <li><strong>M.S. in Bioinformatics</strong>, Indiana University Bloomington (2021–2023)</li>
+                <li><strong>B.Tech in Biotechnology</strong>, Odisha Institute of Technology (2011–2015)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-primary text-white" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Programming & Tools</h4>
+                    <p>Python, R, C++, HTML & CSS</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Machine Learning & AI</h4>
+                    <p>Deep Learning: CNN, GNN, GANs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/project1.jpg" alt="Breast Cancer Prediction" class="img-fluid mb-3">
+                    <h4>Breast Cancer Prediction</h4>
+                    <p>Enhanced accuracy with CNN and DCGAN.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/project2.jpg" alt="Drug Synergy Prediction" class="img-fluid mb-3">
+                    <h4>Drug Synergy Prediction</h4>
+                    <p>Framework using GNNs for drug interactions.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/project3.jpg" alt="Hypoxia Model" class="img-fluid mb-3">
+                    <h4>Hypoxia Model</h4>
+                    <p>Simulated tumor response under hypoxic conditions using CompuCell.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-primary text-white" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:supriyabidanta21@gmail.com" class="text-white">supriyabidanta21@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/supriya-bidanta" class="text-white" target="_blank">Supriya Bidanta</a></p>
+            <p>GitHub: <a href="https://github.com/supriyabidanta" class="text-white" target="_blank">supriyabidanta</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Supriyabidanta</p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
