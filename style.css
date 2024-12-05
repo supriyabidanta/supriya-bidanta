@@ -8,6 +8,11 @@ body {
     padding: 100px 0;
 }
 
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .card img {
     height: 200px;
     object-fit: cover;
@@ -16,15 +21,6 @@ body {
 .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.project-details {
-    display: none; /* Initially hidden */
-    margin-top: 15px;
-    padding: 15px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
 }
 
 footer {
