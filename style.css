@@ -1,61 +1,23 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-    scroll-behavior: smooth;
-}
-
-.navbar-brand {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
 }
 
 .hero-section {
-    background: linear-gradient(rgba(0, 64, 128, 0.8), rgba(0, 64, 128, 0.8)), url('images/hero-bg.jpg') center/cover no-repeat;
+    background-color: #004080;
     color: #fff;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
-.hero-section h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-}
-
-.section h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin-bottom: 30px;
+.project-details {
+    display: none; /* Initially hidden */
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .card img {
     height: 200px;
     object-fit: cover;
-}
-
-.card {
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card-title {
-    font-weight: 700;
-}
-
-footer {
-    background-color: #002040;
-    color: #fff;
-}
-
-#contact i {
-    margin: 0 15px;
-    transition: color 0.3s;
-}
-
-#contact i:hover {
-    color: #90ee90;
-}
-
-@media (max-width: 767px) {
-    .hero-section h1 {
-        font-size: 2.5rem;
-    }
 }
