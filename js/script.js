@@ -8,11 +8,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (targetElement.style.display === 'none' || !targetElement.style.display) {
                 targetElement.style.display = 'block';
-                this.textContent = 'Hide Details'; // Update button text
+                this.textContent = 'Hide Details';
             } else {
                 targetElement.style.display = 'none';
-                this.textContent = 'View Details'; // Update button text
+                this.textContent = 'View Details';
             }
         });
+    });
+
+    AOS.init({
+        duration: 1200,
     });
 });
