@@ -49,134 +49,94 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project1.jpg" class="card-img-top" alt="Breast Cancer Prediction">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Breast Cancer Prediction</h5>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">View Details</button>
-                        </div>
+    <section id="projects" data-aos="fade-up" class="my-5">
+        <h2 class="text-primary text-center mb-4">Projects</h2>
+        <div class="row">
+            <!-- Breast Cancer Prediction -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project1.jpg" class="card-img-top" alt="Breast Cancer Prediction">
+                    <div class="card-body">
+                        <h5 class="card-title">Breast Cancer Prediction</h5>
+                        <p class="card-text">Enhanced accuracy using CNN and DCGAN.</p>
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project2.jpg" class="card-img-top" alt="Drug Synergy Prediction">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Drug Synergy Prediction</h5>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">View Details</button>
-                        </div>
+            </div>
+            <!-- Drug Synergy Prediction -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project2.jpg" class="card-img-top" alt="Drug Synergy Prediction">
+                    <div class="card-body">
+                        <h5 class="card-title">Drug Synergy Prediction</h5>
+                        <p class="card-text">Developed framework using GNNs for cancer drugs.</p>
                     </div>
                 </div>
-                <!-- Project 3 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/project3.jpg" class="card-img-top" alt="Hypoxia Model">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Hypoxia Model</h5>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">View Details</button>
-                        </div>
+            </div>
+            <!-- Zebrafish Gene Expression -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project3.jpg" class="card-img-top" alt="Zebrafish Gene Expression">
+                    <div class="card-body">
+                        <h5 class="card-title">Zebrafish Gene Expression</h5>
+                        <p class="card-text">Studied vaping effects on embryos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <!-- Hypoxia Model of Breast Cancer -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project4.jpg" class="card-img-top" alt="Hypoxia Model of Breast Cancer">
+                    <div class="card-body">
+                        <h5 class="card-title">Hypoxia Model of Breast Cancer</h5>
+                        <p class="card-text">Developed a computational model using CompuCell to simulate tumor response under hypoxic conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- EGFR and IGFR in Healing Gut -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project5.jpg" class="card-img-top" alt="EGFR and IGFR in Healing Gut">
+                    <div class="card-body">
+                        <h5 class="card-title">EGFR and IGFR in Healing Gut</h5>
+                        <p class="card-text">Utilized CompuCell framework to study epidermal and insulin growth factor receptor behaviors during gut lining repair.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Iron and Glucose Uptake Model -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project6.jpg" class="card-img-top" alt="Iron and Glucose Uptake Model">
+                    <div class="card-body">
+                        <h5 class="card-title">Iron and Glucose Uptake Model</h5>
+                        <p class="card-text">Designed a mathematical model to understand iron and glucose uptake mechanisms in pre- and post-menopausal females.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Modals for Project Details -->
-    <!-- Project 1 Modal -->
-    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1Label" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="project1Label">Breast Cancer Prediction</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Enhanced prediction accuracy using CNN and DCGAN on mammographic images.</p>
-                    <h6>Highlights:</h6>
-                    <ul>
-                        <li>Developed a custom CNN model for feature extraction.</li>
-                        <li>Implemented DCGAN to augment datasets.</li>
-                        <li>Achieved 95% accuracy on test data.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Project 2 Modal -->
-    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2Label" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="project2Label">Drug Synergy Prediction</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Developed a framework using GNNs for modeling drug interactions.</p>
-                    <h6>Highlights:</h6>
-                    <ul>
-                        <li>Analyzed molecular interaction networks.</li>
-                        <li>Improved drug synergy prediction accuracy.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Project 3 Modal -->
-    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3Label" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="project3Label">Hypoxia Model</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Simulated tumor responses under hypoxic conditions using CompuCell.</p>
-                    <h6>Highlights:</h6>
-                    <ul>
-                        <li>Modeled oxygen gradients in tissue.</li>
-                        <li>Predicted tumor behavior under hypoxia.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Publications Section -->
     <section id="publications" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center">Publications</h2>
-        <ul class="list-unstyled">
-            <!-- Publication 1 -->
-            <li class="mb-3">
-                <p><strong>Bidanta S</strong>, et al. Functional Tissue Units in the Human Reference Atlas. <em>Nature Communications</em>, 2023.</p>
-                <a href="https://example.com/fullpaper.pdf" target="_blank">
-                    <i class="fas fa-download"></i> Download
-                </a>
-                <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10614912/" target="_blank">
-                    <i class="fas fa-external-link-alt"></i> View Site
-                </a>
-            </li>
-            <!-- Publication 2 -->
-            <li>
-                <p><strong>Bergman D</strong>, <strong>Bidanta S</strong>, et al. PhysiPKPD: A pharmacokinetics and pharmacodynamics module for PhysiCell. <em>GigaByte</em>, 2022.</p>
-                <a href="https://example.com/fullpaper.pdf" target="_blank">
-                    <i class="fas fa-download"></i> Download
-                </a>
-                <a href="https://pubmed.ncbi.nlm.nih.gov/36950142/" target="_blank">
-                    <i class="fas fa-external-link-alt"></i> View Site
-                </a>
-            </li>
-        </ul>
-    </div>
-</section>
+        <div class="container">
+            <h2 class="text-center">Publications</h2>
+            <ul class="list-unstyled">
+                <!-- Publication 1 -->
+                <li class="mb-3">
+                    <p><strong>Bidanta S</strong>, et al. Functional Tissue Units in the Human Reference Atlas. <em>Nature Communications</em>, 2023.</p>
+                    <a href="https://example.com/fullpaper.pdf" target="_blank"><i class="fas fa-download"></i> Download</a>
+                    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10614912/" target="_blank"><i class="fas fa-external-link-alt"></i> View Site</a>
+                </li>
+                <!-- Publication 2 -->
+                <li>
+                    <p><strong>Bergman D</strong>, <strong>Bidanta S</strong>, et al. PhysiPKPD: A pharmacokinetics and pharmacodynamics module for PhysiCell. <em>GigaByte</em>, 2022.</p>
+                    <a href="https://example.com/fullpaper.pdf" target="_blank"><i class="fas fa-download"></i> Download</a>
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/36950142/" target="_blank"><i class="fas fa-external-link-alt"></i> View Site</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-5">
