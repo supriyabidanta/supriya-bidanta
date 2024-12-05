@@ -1,23 +1,42 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero-section {
-    background-color: #004080;
-    color: #fff;
+    background-color: #b5d6e5;
+    color: #004080;
     padding: 100px 0;
 }
 
-.project-details {
-    display: none; /* Initially hidden */
-    margin-top: 15px;
-    padding: 15px;
+.navbar {
     background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
     height: 200px;
     object-fit: cover;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-details {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-details ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #004080;
+    color: #fff;
 }
