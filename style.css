@@ -19,6 +19,12 @@ body {
     object-fit: cover;
 }
 
+.center-image {
+    display: block; /* Makes the image a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card-title {
     font-weight: bold;
 }
